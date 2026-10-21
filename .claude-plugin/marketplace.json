@@ -1,0 +1,46 @@
+{
+  "name": "graffish-labs",
+  "owner": {
+    "name": "Graffish Labs"
+  },
+  "description": "Small Claude Code plugins from Graffish Labs: some inspired by graffy, others that complement it.",
+  "plugins": [
+    {
+      "name": "connect",
+      "description": "Signs you in to Graffish vigil once and stores your personal token in every installed graffish-labs plugin.",
+      "version": "0.3.1",
+      "source": {
+        "source": "archive",
+        "url": "https://get.ops.graffish.com/claude/connect-0.3.1.zip",
+        "sha256": "f25f37224f71af278ea89520b7c5f2e2e571a99dd0cdc9bbab8d6401d981f174"
+      }
+    },
+    {
+      "name": "support",
+      "description": "Support tickets for team members and clients who don't run graffy, with a dashboard pane.",
+      "version": "0.3.0",
+      "dependencies": [
+        "connect",
+        "telemetry"
+      ],
+      "source": {
+        "source": "archive",
+        "url": "https://get.ops.graffish.com/claude/support-0.3.0.zip",
+        "sha256": "224e3474906ede1be074d2c45709d85ef2c136ff1b5e2515fc83258521927417"
+      }
+    },
+    {
+      "name": "telemetry",
+      "description": "Sends Claude Code session-start and tool-use events from hooks to Graffish vigil (Loki + Prometheus).",
+      "version": "0.5.0",
+      "dependencies": [
+        "connect"
+      ],
+      "source": {
+        "source": "archive",
+        "url": "https://get.ops.graffish.com/claude/telemetry-0.5.0.zip",
+        "sha256": "5288ae7bc39ee6e40ba1816ef358bea38a784860fefaec96cd68ccb2e8910cdc"
+      }
+    }
+  ]
+}
