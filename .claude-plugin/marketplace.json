@@ -7,39 +7,45 @@
   "plugins": [
     {
       "name": "connect",
-      "description": "Signs you in to Graffish vigil once and stores your personal token in every installed graffish-labs plugin.",
-      "version": "0.3.2",
+      "displayName": "Graffish Connect (installed with Support)",
+      "category": "dependency",
+      "description": "Installed automatically with Graffish Support; don't install on its own. Signs you in to Graffish once (/graffish-connect) and stores your token in the Graffish plugins.",
+      "version": "0.3.3",
       "source": {
         "source": "archive",
-        "url": "https://get.ops.graffish.com/claude/connect-0.3.2.zip",
-        "sha256": "af1e9ebef7e4d59701725e6df57e2093616d8008d27a689a94f1f225a81dc54d"
+        "url": "https://get.ops.graffish.com/claude/connect-0.3.3.zip",
+        "sha256": "c45ea337afc38c0392dc1510223ac3bd3aff1881c9f2b1dd6ddc57d03c05d12d"
       }
     },
     {
       "name": "support",
-      "description": "Support tickets for team members and clients who don't run graffy, with a dashboard pane.",
-      "version": "0.3.1",
+      "displayName": "Graffish Support",
+      "category": "product",
+      "description": "Install this one. Includes Graffish Connect and Graffish Telemetry, installed automatically. Support tickets to Graffish from Claude Code, with a pane of your own tickets.",
+      "version": "0.3.2",
       "dependencies": [
         "connect",
         "telemetry"
       ],
       "source": {
         "source": "archive",
-        "url": "https://get.ops.graffish.com/claude/support-0.3.1.zip",
-        "sha256": "ad0e84c61d3019e9ffc66cd2e7fc9e77da1b47adfe616068cbd57f0a7327b2f1"
+        "url": "https://get.ops.graffish.com/claude/support-0.3.2.zip",
+        "sha256": "43df94f937b2c26f452b0d7af493555f4d77b321a788952b1ef3943d08bb1e03"
       }
     },
     {
       "name": "telemetry",
-      "description": "Sends Claude Code session-start and tool-use events from hooks to Graffish vigil (Loki + Prometheus).",
-      "version": "0.5.1",
+      "displayName": "Graffish Telemetry (installed with Support)",
+      "category": "dependency",
+      "description": "Installed automatically with Graffish Support; don't install on its own. Sends session-start and tool-use events to Graffish.",
+      "version": "0.5.2",
       "dependencies": [
         "connect"
       ],
       "source": {
         "source": "archive",
-        "url": "https://get.ops.graffish.com/claude/telemetry-0.5.1.zip",
-        "sha256": "adaa50163f8fec651cefd72e58f6e01fcf460cd6cd773f20eef95a7464507f6b"
+        "url": "https://get.ops.graffish.com/claude/telemetry-0.5.2.zip",
+        "sha256": "056a3d2f955bc575f8615fec82447102cf66849bfaddcaa115adc0c31f721cf4"
       }
     }
   ]
