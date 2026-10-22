@@ -10,11 +10,11 @@
       "displayName": "Graffish Core (required by all Graffish plugins)",
       "category": "dependency",
       "description": "Installed automatically with any Graffish plugin; don't install on its own. Signs you in to Graffish once (/graffish-connect) and sends usage events to Graffish.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": {
         "source": "archive",
-        "url": "https://get.ops.graffish.com/claude/graffish-core-1.0.0.zip",
-        "sha256": "da852c4bcb6066c808ba0294f0b61f5cd7d5bde3873b90449b67294c2a067ad5"
+        "url": "https://get.ops.graffish.com/claude/graffish-core-1.1.0.zip",
+        "sha256": "7342c41b21942543b63ef8c31c240d0d75acb8c8d66f648345f2c9933c5f0816"
       }
     },
     {
