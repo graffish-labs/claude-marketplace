@@ -10,11 +10,11 @@
       "displayName": "Graffish Core (required by all Graffish plugins)",
       "category": "dependency",
       "description": "Installed automatically with any Graffish plugin; don't install on its own. Signs you in to Graffish once (/graffish-connect) and sends usage events to Graffish.",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "source": {
         "source": "archive",
-        "url": "https://get.ops.graffish.com/claude/graffish-core-1.1.3.zip",
-        "sha256": "bf78e4d4854b5e566da7ace104b40e9003c6d90bdb5590af07e6e994711b979e"
+        "url": "https://get.ops.graffish.com/claude/graffish-core-1.1.4.zip",
+        "sha256": "40e73891dfc5b0a607b1bcde738d0fdabf3542815def62053fbc806eee262048"
       }
     },
     {
@@ -22,14 +22,14 @@
       "displayName": "Graffish Support",
       "category": "product",
       "description": "Install this one. Includes Graffish Core, installed automatically. Support tickets to Graffish from Claude Code, with a pane of your own tickets.",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "dependencies": [
         "graffish-core"
       ],
       "source": {
         "source": "archive",
-        "url": "https://get.ops.graffish.com/claude/support-0.7.0.zip",
-        "sha256": "dfe8a3d537bfb2f314b45d31feb617b47fa8122de79ed6ba53c60610df62cc99"
+        "url": "https://get.ops.graffish.com/claude/support-0.7.1.zip",
+        "sha256": "54f7bc3440b5e2545808d1a5b98df1920f377b389ab4d88c9d3fbbedbeaf97b9"
       }
     }
   ],
