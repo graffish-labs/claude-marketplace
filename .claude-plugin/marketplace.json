@@ -37,14 +37,14 @@
       "displayName": "Graffish Support",
       "category": "product",
       "description": "Install this one. Includes Graffish Core, installed automatically. Support tickets to Graffish from Claude Code, with a pane of your own tickets.",
-      "version": "0.9.0",
+      "version": "0.9.1",
       "dependencies": [
         "graffish-core"
       ],
       "source": {
         "source": "archive",
-        "url": "https://get.ops.graffish.com/claude/support-0.9.0.zip",
-        "sha256": "10f561bf6e0422688124eaaf6772c9febc5cd8cf90ac2eebccbbe3d24074c31c"
+        "url": "https://get.ops.graffish.com/claude/support-0.9.1.zip",
+        "sha256": "d0b773f9512933583d88d50f62bcc987577a13de5ab713c4124963d39b25b65c"
       }
     }
   ],
