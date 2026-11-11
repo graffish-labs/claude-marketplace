@@ -33,6 +33,21 @@
       }
     },
     {
+      "name": "nucleus",
+      "displayName": "Graffish Nucleus",
+      "category": "product",
+      "description": "For outside collaborators Graffish invited to Nucleus. Includes Graffish Core. Read-only search over the docs and code of the repos on your invite, the public-law corpus, and those products' Vercel deploys.",
+      "version": "0.1.0",
+      "dependencies": [
+        "graffish-core"
+      ],
+      "source": {
+        "source": "archive",
+        "url": "https://get.ops.graffish.com/claude/nucleus-0.1.0.zip",
+        "sha256": "b50792bf821901c4473da7d25a3ca5740112ac74385d1ecc38854c2e3e775001"
+      }
+    },
+    {
       "name": "support",
       "displayName": "Graffish Support",
       "category": "product",
