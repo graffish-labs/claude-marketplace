@@ -22,14 +22,14 @@
       "displayName": "Graffish Media Tool",
       "category": "product",
       "description": "For Graffish founders and collaborators only: needs a GraffishMediaTool account. Includes Graffish Core. Ask Claude about your projects' ad, organic and lead results, and save post, reply and ad drafts for a person to review.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "dependencies": [
         "graffish-core"
       ],
       "source": {
         "source": "archive",
-        "url": "https://get.ops.graffish.com/claude/media-tool-0.1.0.zip",
-        "sha256": "37016f6b68f68b53d7ecb2004248b80810b120125d05614cac87b5de3a59dc9a"
+        "url": "https://get.ops.graffish.com/claude/media-tool-0.2.0.zip",
+        "sha256": "80f5fd8bdaf6be7980247b184d76bce38e713b7ae2e8c58efc5fa00b096fae3a"
       }
     },
     {
